@@ -15,11 +15,11 @@ and programs used in NLP, and the unix environment in general.
 The course started with a Zoom-meeting (2020...). 
 People introduced themselves and the course instructor gave a lecture about computer hardware 
 and the UNIX operating system. 
-Each student installed and/or configured their own unix system and learned some 
+Each student installed and/or configured their own UNIX system and learned some 
 basic commands to move around in the file system and manipulate files. 
 Starting programs and stopping them in different ways were also explored.
 
-I already knew some of the commands since I had taken a similar course earlier. 
+**I** already knew some of the commands since I had taken a similar course earlier. 
 I still had to read the manpages a lot though! 
 I had completely forgotten the flags associated with each program.
 
@@ -49,10 +49,10 @@ Students learned to
 * manipulate entire folders with the `-r` flag,
 * find and change file and folder permissions with `ls -l` and `chmod`,
 * run and shut down processes in the background using `&`, `ps` and `kill` and
-* connect to a remote host using `ssh` and `scp`.
+* connect to a remote host using `ssh` and `scp`.  
 [CSC](https://www.csc.fi/) servers were used to test `ssh` and `scp`.
 
-Most of the commands were again familiar. 
+**M**ost of the commands were again familiar. 
 The biggest problem this week was to get the permissions to use CSC servers to work... 
 I also had to switch from the Windows Linux subsystem to Virtualbox because of 
 some compatibility issues.
@@ -84,10 +84,10 @@ Command | Description
 This week contained most of the important programs for processing text files. 
 Basic regular expressions and other methods of formatting text for qualitative analysis 
 were introduced. 
-Students learned to convert files from dos to unix format and between different 
+Students learned to convert files from DOS to UNIX format and between different 
 character encodings.
 
-During the last course, encoding was one of my biggest hurdles. 
+**D**uring the last course, encoding was one of my biggest hurdles. 
 Windows and the terminal program on my home PC as well as the university Linux server all 
 had to be configured properly. 
 Luckily this time there were no problems since I did everything on my home PC. 
@@ -110,7 +110,7 @@ Command | Description
 
 text processing using UNIX commands, command pipelines, sed, more about regular expressions
 
-I was already comfortable with writing pipelines, but sed was completely new to me. 
+**I** was already comfortable with writing pipelines, but sed was completely new to me. 
 Sometimes I would get frustrated and just use egrep instead. I have a lot to learn...
 
 #### Commands learned this week:
@@ -126,7 +126,7 @@ this time written into convenient script files.
 Students also learned how to manipulate environment variables and set up their own 
 bash configurations.
 
-I had trouble making some of the scripts work the way I wanted. 
+**I** had trouble making some of the scripts work the way I wanted. 
 I had also misplaced my old configuration file and had to start from scratch.
 
 #### Commands learned this week:
@@ -144,7 +144,7 @@ to install, uninstall and update software as well as basic Python commands and
 makefile syntax. 
 Inputting commands as root was also introduced.
 
-I couldn't get bllip to work. The makefile syntax was way beyond my capabilities as well... 
+**I** couldn't get bllip to work. The makefile syntax was way beyond my capabilities as well... 
 I'll be reviewing this in the future and updating what I learn here, hopefully.  
 I hadn't heard of meld before and it seemed very useful! 
 I'll definitely be using it in the future.
@@ -161,16 +161,16 @@ Command | Description
 `python` | python language interpreter
 `pip` | python package manager
 `virtualenv` | creates virtual python environment
-source | executes commands from given file
-make | compiles source code according to makefile instructions
+`source` | executes commands from given file
+`make` | compiles source code according to makefile instructions
 
 ### Week 7: Version Control
 
-Week 7 was all about the distributed version control system git and one of its most 
+Week 7 was all about the distributed version control system `git` and one of its most 
 popular hosting services, [GitHub](https://github.com/). Students made their own 
-repositories and published them on GitHub using the git command line.
+repositories and published them on GitHub using the `git` command line.
 
-Git proved to be fairly easy to use after a bit of time especially with 
+**G**it proved to be fairly easy to use after a bit of time especially with 
 [this video](https://www.youtube.com/watch?v=HVsySz-h9r4). I've already got a few ideas 
 that I'd like to try implementing with it. I tried to enable 2-factor authentication on 
 Github, but using it with the command line proved to be a bit of a headache, so I decided 
@@ -188,12 +188,12 @@ The final assignment had the students make their own github.io page with a cours
 Local testing was done using `jekyll` and page formatting was implemented with Markdown 
 syntax in order to make writing the course report simple.
 
-Virtualbox decided to destroy my Linux installation so I had to reinstall and configure 
+**V**irtualbox decided to destroy my Linux installation so I had to reinstall and configure 
 everything before starting the actual assignment. Learning Markdown was the easiest part, 
-since the syntax is is minimal and I had already learned LaTeX.
+since the syntax is is minimal and I had already learned LaTeX.  
 I spent almost two hours trying to make `jekyll` work, just to find out that the instructions 
 clearly said what I did wrong: I had installed `jekyll` with `apt-get` instead of `bundle`. 
-I also had to add `gem: "kramdown-parser-gfm"` to the gemfile as well, 
+I also had to add `gem: "kramdown-parser-gfm"` to the gemfile, 
 since it was missing and `bundle exec jekyll serve` refused to work without it.  
 
 #### Commands learned this week:
