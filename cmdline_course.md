@@ -2,13 +2,13 @@
 layout: default
 ---
 
-## Course report: Command line tools for linguists
+## Report: Command line tools for linguists
 
 <img src="assets/images/code.jpg" alt="Photo" hspace="20" width="30%" align="right"/> During 
 the course the students get comfortable with both basic and advanced unix commands 
 and programs used in NLP, and the unix environment in general.
 
-### Week 1: Introduction to Command Line Environments
+### Week 1: Introduction
 
 > All of you will have problems.  
 > -Hande Celikkanat
@@ -45,13 +45,12 @@ Command | Description
 
 ### Week 2: Navigating a UNIX System
 
-The second week was a deeper dive into some of the programs introduced in the beginning. 
-Students learned to
+The second week was a deeper dive into some of the programs introduced in the beginning. Students learned to
 * manipulate entire folders with the `-r` flag,
-* find and change file and folder permissions with `ls -l` and `chmod`,
-* run and shut down processes in the background using `&`, `ps` and `kill` and
-* connect to a remote host using `ssh` and `scp`.  
-[CSC](https://www.csc.fi/) servers were used to test `ssh` and `scp`.
+* find and change file and folder permissions with `ls -l` and `chmod` and
+* run and shut down processes in the background using `&`, `ps` and `kill`.
+
+[CSC](https://www.csc.fi/) servers were also used to test connecting to a remote host using `ssh` and `scp`.
 
 **M**ost of the commands were again familiar. 
 The biggest problem this week was to get the permissions to use CSC servers to work... 
@@ -109,7 +108,8 @@ Command | Description
 
 ### Week 4: Advanced Corpus Processing
 
-text processing using UNIX commands, command pipelines, sed, more about regular expressions
+This week, piping commands in `bash` was introduced alongside more complicated 
+regular expressions and `sed`, a program using these to modify text.
 
 **I** was already comfortable with writing pipelines, but sed was completely new to me. 
 Sometimes I would get frustrated and just use egrep instead. I have a lot to learn...
