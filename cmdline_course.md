@@ -4,7 +4,8 @@ layout: default
 
 ## Course report: Command line tools for linguists
 
-During the course the students get comfortable with both basic and advanced unix commands 
+<img src="assets/images/code.jpg" alt="Photo" hspace="20" width="30%" align="right"/> During 
+the course the students get comfortable with both basic and advanced unix commands 
 and programs used in NLP, and the unix environment in general.
 
 ### Week 1: Introduction to Command Line Environments
